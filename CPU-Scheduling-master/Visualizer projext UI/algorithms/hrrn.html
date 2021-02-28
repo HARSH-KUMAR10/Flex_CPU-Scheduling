@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highest Response Ratio Next</title>
+    <script src="hrrn.js" async defer></script>
+</head>
+<body>
+    Enter Arrival Time : <input type="text" placeholder="Ex.:0,1,2,3,4,5" id="arrival_time" required/><br/><br/>
+    Enter Burst Time : <input type="text" placeholder="Ex.:0,1,2,3,4,5" id="burst_time" required/><br/><br/>
+    <button type="button" onclick="calculate()">Get</button>
+    <br/><br/>
+    <div id="table"></div>
+    <br/><br/>
+    <canvas id="myCanvas" width="1200" height="300" style="border:1px solid #000000;"></canvas>
+</body>
+</html>

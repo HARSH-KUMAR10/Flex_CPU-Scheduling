@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Come First Served</title>
+    <script src="fcfs.js" async defer></script>
+		<style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.userinput{
+text-transform: title;
+  color: #4CAF50;
+  font-size:120%;
+  text-shadow:5px;
+ 
+}
+
+body{
+background-image:url("background.jpg");
+}
+
+}
+</style>
+</head>
+<body>
+    <div class="userinput"><b>Enter Arrival Time :</b><input type="text"  placeholder="Ex.:0,1,2,3,4,5" id="arrival_time" required/><br/><br/>
+    <b>Enter Burst Time : </b><input type="text" placeholder="Ex.:0,1,2,3,4,5" id="burst_time" required/><br/><br/></div>
+    <button type="button" class="button" onclick="calculate()">Generate Output</button>
+    <br/><br/>
+    <div id="table"></div>
+    <br/><br/>
+    <canvas id="myCanvas" width="800" height="300" style="border:1px solid #000000;"></canvas>
+
+</body>
+</html>
