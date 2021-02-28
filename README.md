@@ -1,7 +1,11 @@
 # Flex_CPU-Scheduling
 **Efficiency Optimization CPU Scheduling Algorithms Through Visualization Using Gantt Charts.**
 
-This Project is a prototype which can make research projects easier as it would not require to manually calculate the things.
+**AIM :**
+
+Visualization of the discovered patterns is important in order to communicate information efficiently and quickly using tables, charts, rules, decision trees etc hence our aim was to create a prototype which can Visualize the different algorithms and can compare the Efficiency of the Algorithms By analyzing the patterns using the same data set through Gantt Charts.
+Our Project is handier for teachers to improve and easier for learners to grasp by taking advantages of JavaScript.
+This Project is merely a prototype which can make research projects easier as it would not require to manually calculate the things.
 
 We have employed the following algorithms in our Visualizer :
 1. FCFS
